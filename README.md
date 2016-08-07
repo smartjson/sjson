@@ -10,18 +10,18 @@ All json basics will be left unchanged.
 With smartjson you can set an embedded value with calling
 a smartjson function (sjson-funcs, SmartJSON funcs) that will return it.
 
-### Syntax
+## Syntax
 Smartjson function identifier is `@`. sjson-funcs are called when used as value without qoutes,
 so you can't use it in strings or concatenate it.
 
 In this examples we'll use `funcName` as an example of user-defined function name.
 
-Full syntax:
+### Full syntax:
 ```
 @funcName[(arg1="a"[, arg2=123[, arg3=bool]])]
 ```
 
-Usage example:
+### Usage example:
 ```
 {
   "stdBool": true,
@@ -34,17 +34,17 @@ Usage example:
 }
 ```
 
-SmartJSON func call without args:
+### SmartJSON func call without args:
 ```
 @funcName
 ```
 
-SmartJSON func call with one arg:
+### SmartJSON func call with one arg:
 ```
 @funcName(arg1=1)
 ```
 
-SmartJSON func call with multiple args:
+### SmartJSON func call with multiple args:
 ```
 @funcName(arg1=1, arg2=123, arg3=false)
 ```
