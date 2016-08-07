@@ -1,0 +1,2 @@
+# sjson
+Smart JSON Specification
