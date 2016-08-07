@@ -3,10 +3,12 @@ Smart JSON Specification
 
 # Description
 This specification extends JSON specification and adds more features.
+
 All json basics will be left unchanged.
 
 # Embedded values
-With smartjson you can set an embedded value with calling a smartjson function (sjson-funcs, SmartJSON funcs) that will return it.
+With smartjson you can set an embedded value with calling
+a smartjson function (sjson-funcs, SmartJSON funcs) that will return it.
 
 ### Syntax
 Smartjson function identifier is `@`. sjson-funcs are called when used as value without qoutes,
